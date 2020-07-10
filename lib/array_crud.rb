@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["Mom", "Dad", "Sister", "Brother"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  family = ["Mom", "Dad", "Sister", "Brother"]
+  family << "Baby Sister"
 end
 
 def add_element_to_start_of_array(array, element)
